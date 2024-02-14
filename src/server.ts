@@ -1,10 +1,9 @@
 import fastify from 'fastify'
 
-
 const app = fastify()
 
-app.get('/hello', async (req,res) => {
-    res.send('hello world')
+app.get('/hello', async (req, res) => {
+  res.send('hello world')
 })
 
 app
